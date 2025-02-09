@@ -20,7 +20,7 @@ function App() {
                 <img src={logo} className='App-logo' alt='logo' />
                 Лабораторная работа по микрофронтендам
             </header>
-            <section className='App-content'>
+            <section className='App-content1231321'>
                 {jwt ? (
                     <>
                         <Welcome jwt={jwt} />

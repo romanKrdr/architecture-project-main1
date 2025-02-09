@@ -15,9 +15,12 @@ export function UserLogin({ onLogin }) {
             <div className='control'>
                 <input name='password' type='password' onChange={(e) => setPassword(e.target.value)} required />
             </div>
-            <div className='actions'>
+            <div className='actions123'>
                 <button onClick={() => onLogin(email, password)}>Войти</button>
+
+
             </div>
+
         </div>
     );
 }
